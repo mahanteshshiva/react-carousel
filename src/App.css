@@ -23,6 +23,25 @@
 
 .container{
   text-align: center;
-  background-color: rgba(205, 212, 201, 1);
-  
+  margin: 0 auto;
+  margin-top:200px;
+}
+.flex-container{
+  height: 200px;
+  width: 1000px;
+  overflow-x: auto;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.slide-1, .slide-2, .slide-3, .slide-4, .slide-5 {
+  border:1px solid;
+  min-width: 200px;
+  background-color: #09d3ac;
+  color: #fff;
+  margin: 4px;
+  text-align: center;
+  line-height: 200px;
+  font-size:20px;
 }
