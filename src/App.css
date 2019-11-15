@@ -1,47 +1,84 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
 
 .container{
   text-align: center;
   margin: 0 auto;
-  margin-top:200px;
+  margin-top:100px;
 }
 .flex-container{
+  margin:50px;
   height: 200px;
   width: 1000px;
   overflow-x: auto;
-  border: 1px solid;
+  border: 1px solid #BFBFBF;
   display: flex;
   justify-content: flex-start;
 }
 
 .slide-1, .slide-2, .slide-3, .slide-4, .slide-5 {
-  border:1px solid;
+  box-shadow: 5px 5px 5px 0px rgba(143,143,143,1);
   min-width: 200px;
-  background-color: #09d3ac;
-  color: #fff;
-  margin: 4px;
+  background-color: rgb(153, 140, 140);
+  margin: 10px;
   text-align: center;
   line-height: 200px;
   font-size:20px;
+}
+a:active{
+  color: green;
+}
+a:hover{
+  color: blue;
+}
+a:visited{
+  color:white;
+}
+
+
+.header{
+  text-align: center;
+  background-color:rgb(161, 160, 160); 
+  font-family: 'Courgette', cursive;
+}
+
+.footer{
+  height: 100px;
+background-color: rgb(161, 160, 160); 
+text-align: center;
+}
+
+/* colors */
+
+.facebook {
+  background: rgb(12, 109, 173);
+}
+.twitter{
+  background-color: rgb(79, 121, 150);
+}
+.linkedIn{
+  background-color: rgb(65, 156, 221);
+}
+.gmail{
+  background-color: rgb(179, 67, 67);
+}
+.github{
+  background-color: rgba(19, 17, 17, 0.486);
+}
+.w3school{
+  background-color: rgb(130, 221, 127);
+}
+.udemy{
+  background-color: rgb(235, 150, 150);
+}
+.angular{
+  background-color: rgb(233, 53, 53);
+}
+.react{
+  background-color: rgb(13, 101, 128);
+}
+.bootstrap{
+  background-color: rgb(7, 44, 146);
+}
+.googlefonts{
+  background-color: rgb(218, 107, 107);
 }
