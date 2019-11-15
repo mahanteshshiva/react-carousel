@@ -30,7 +30,7 @@
   height: 200px;
   width: 1000px;
   overflow-x: auto;
-  border: 1px solid #000;
+  border: 1px solid;
   display: flex;
   justify-content: flex-start;
 }
